@@ -190,7 +190,7 @@ def plot_parallel_coordinates(data, target_col, colors=("#E58139", "#39E581","#E
 def analisis(df):
     # Vistazo general
     print("\nVistazo general:")
-    print(df.head(2))
+    print(df.head(3))
     
     # Variables numéricas
     numericas = df.select_dtypes(include=['number']).columns.tolist()
